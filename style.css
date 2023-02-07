@@ -1,0 +1,36 @@
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 80px;
+    margin: 20px;
+}
+
+.search-form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.search-form >  * {
+    margin: 20px;
+}
+
+.search-text{
+    width: auto;
+}
+
+.search-buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.search-buttons > *{
+    border-radius: 2px;
+
+}
