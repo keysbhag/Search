@@ -14,7 +14,7 @@ h1{
 .search-form{
     display: flex;
     flex-direction: column;
-    width: 500px;
+    min-width: 500px;
 }
 
 a{
@@ -39,11 +39,11 @@ a{
     border-radius: 2px;
 }
 
-.google-images{
+.google-sub{
     display: flex;
 }
 
-.sub-text-images{
+.sub-text{
     display: flex;
     align-items: flex-end;
 }
